@@ -1,24 +1,26 @@
-# README
+ROR Developer Practical Test
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Create Employee form having following fields.
+Employee Id
+Employee Name
+Address
+Email Address
+Phone
+Date of Birth
+Employee Image
+Database (Username: root, Password: Not required)
+Query for creating Employee Table
 
-Things you may want to cover:
+Validation:
+Email id should be unique
+Phone number accepts only numeric value
+Calendar control for DOB, Future date cannot be select.
+Image should be (jpg/png)
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Functionality
+Add Employee
+Edit Employee
+Delete Employee
+Listing all employees
+Pagination
+Search based on Employee Name 
