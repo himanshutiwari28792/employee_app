@@ -1,0 +1,40 @@
+<div class="container">  
+  <p id="notice" class="alert alert-success"><%= notice %></p>
+
+  <p>
+    <strong>Name:</strong>
+    <%= @employee.name %>
+  </p>
+
+  <p>
+    <strong>Address:</strong>
+    <%= @employee.address %>
+  </p>
+
+  <p>
+    <strong>Email:</strong>
+    <%= @employee.email %>
+  </p>
+
+  <p>
+    <strong>Dob:</strong>
+    <%= @employee.dob %>
+  </p>
+
+  <p>
+    <strong>Phone:</strong>
+    <%= @employee.phone %>
+  </p>
+
+  <p>
+    <div class="row">
+      <div class="col-md-3">
+        <strong>Image:</strong>
+        <%= image_tag @employee.avatar, class: 'img-fluid' %>
+      </div>
+    </div>
+  </p>
+
+  <%= link_to 'Edit', edit_employee_path(@employee), class: 'btn btn-primary' %> |
+  <%= link_to 'Back', employees_path, class: 'btn btn-primary' %>
+</div>
